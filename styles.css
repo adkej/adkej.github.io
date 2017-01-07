@@ -67,7 +67,6 @@ body {
 
 .main {
   position: relative;
-  margin-top: 2rem;
   text-rendering: optimizeLegibility;
   -moz-font-feature-settings: 'kern=1';
   -moz-font-feature-settings: 'kern' 1;
@@ -76,6 +75,8 @@ body {
   -ms-font-feature-settings: 'kern' 1;
   font-feature-settings: 'kern' 1;
   line-height: 1.4;
+  margin-top: 1.6rem;
+  margin-bottom: .8rem;
 }
 
 
@@ -114,37 +115,105 @@ img {
 
 h1 {
   font-size: 1.8rem;
+  font-weight: 600;
   line-height: 1.1;
-  margin-top: 0.25rem;
+  margin-top: 0.25rem;  
+
   margin-bottom: 1.5rem;
 }
 
-h3.page-head {
+h3 {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  font-weight: 500;
   font-variant: small-caps;
-  font-size: 1rem;
+  line-height: 1.2;
+}
+
+
+h3.page-head {
   border-bottom: 1px dashed gray;
 }
 
 h3.section-head {
-  font-variant: small-caps;
-  font-size: 1rem;
-  line-height: 1.2;
   margin-top: 1.5rem;
   padding-bottom: 0.3rem;
+  font-size: 1rem;
+  opacity: 1;
 }
 
 
 .h3-right {
   float: right;
-} 
+}
 
+.h3-right a {
+  padding: 0 .2rem;
+}
 
 .single-img {
   margin: 0 auto;
 }
 
 
-  
+
+.album-wrap {
+  display: table;
+  padding: 0.3rem 0;
+  margin: 0 auto;
+}
+
+
+.album-wrap:hover {
+  background-color: #393749;
+  border-radius: 5px;
+}
+
+
+.album {
+  margin: 0 .3rem;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+.album:hover .album-cover {
+  transform: scale(1.1);
+}
+
+
+.album-desc {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(33, 36, 37, 0) 0%, rgba(33, 36, 37, 0.7) 50%, rgba(33, 36, 37, 0.84) 100%) repeat scroll 0 0;
+  bottom: 0;
+  padding: 4.25rem 0 2rem;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.album-desc h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+.album-desc h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.album-cover{
+  margin: 0 auto;
+  min-width: 12.08rem;
+  max-width: 21.33rem;
+  min-height: 10.42rem;
+  max-height: 18.25rem;
+
+  border-radius: 5px;
+  transition: all 1s ease-out 0s;
+}
+
 
 
 a {
