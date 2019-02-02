@@ -1,0 +1,274 @@
+
+@media all {html {font-size: 21px;}}
+@media all and (max-width:930.0px){html {font-size: 21.00px;}}
+@media all and (max-width:920.0px){html {font-size: 20.75px;}}
+@media all and (max-width:910.0px){html {font-size: 20.50px;}}
+@media all and (max-width:900.0px){html {font-size: 20.25px;}}
+@media all and (max-width:890.0px){html {font-size: 20.00px;}}
+@media all and (max-width:880.0px){html {font-size: 19.75px;}}
+@media all and (max-width:870.0px){html {font-size: 19.50px;}}
+@media all and (max-width:860.0px){html {font-size: 19.25px;}}
+@media all and (max-width:850.0px){html {font-size: 19.00px;}}
+@media all and (max-width:840.0px){html {font-size: 18.75px;}}
+@media all and (max-width:830.0px){html {font-size: 18.50px;}}
+@media all and (max-width:820.0px){html {font-size: 18.25px;}}
+@media all and (max-width:810.0px){html {font-size: 18.00px;}}
+@media all and (max-width:800.0px){html {font-size: 17.75px;}}
+@media all and (max-width:790.0px){html {font-size: 17.50px;}}
+@media all and (max-width:780.0px){html {font-size: 17.25px;}}
+@media all and (max-width:770.0px){html {font-size: 17.00px;}}
+@media all and (max-width:760.0px){html {font-size: 16.75px;}}
+@media all and (max-width:750.0px){html {font-size: 16.50px;}}
+@media all and (max-width:740.0px){html {font-size: 16.25px;}}
+@media all and (max-width:730.0px){html {font-size: 16.00px;}}
+@media all and (max-width:720.0px){html {font-size: 15.75px;}}
+@media all and (max-width:710.0px){html {font-size: 15.50px;}}
+@media all and (max-width:700.0px){html {font-size: 15.25px;}}
+@media all and (max-width:690.0px){html {font-size: 15.00px;}}
+@media all and (max-width:680.0px){html {font-size: 14.75px;}}
+@media all and (max-width:670.0px){html {font-size: 14.50px;}}
+@media all and (max-width:660.0px){html {font-size: 14.25px;}}
+@media all and (max-width:650.0px){html {font-size: 14.00px;}}
+@media all and (max-width:640.0px){html {font-size: 13.75px;}}
+@media all and (max-width:630.0px){html {font-size: 13.50px;}}
+@media all and (max-width:620.0px){html {font-size: 13.25px;}}
+@media all and (max-width:610.0px){html {font-size: 13.00px;}}
+@media all and (max-width:600.0px){html {font-size: 12.75px;}}
+@media all and (max-width:590.0px){html {font-size: 12.50px;}}
+@media all and (max-width:580.0px){html {font-size: 12.25px;}}
+@media all and (max-width:570.0px){html {font-size: 12.00px;}}
+@media all and (max-width:560.0px){html {font-size: 11.75px;}}
+@media all and (max-width:550.0px){html {font-size: 11.50px;}}
+@media all and (max-width:540.0px){html {font-size: 11.25px;}}
+@media all and (max-width:530.0px){html {font-size: 11.00px;}}
+@media all and (max-width:520.0px){html {font-size: 10.75px;}}
+@media all and (max-width:510.0px){html {font-size: 10.50px;}}
+@media all and (max-width:500.0px){html {font-size: 10.25px;}}
+@media all and (max-width:490.0px){html {font-size: 10.00px;}}
+@media all and (max-width:480.0px){html {font-size: 9.75px;}}
+@media all and (max-width:470.0px){html {font-size: 9.50px;}}
+@media all and (max-width:460.0px){html {font-size: 9.25px;}}
+@media all and (max-width:450.0px){html {font-size: 9.00px;}}
+
+
+body {
+  margin: 0 auto;
+  max-width:1000px;
+  font-family: 'Noto Sans KR', sans-serif;
+  background-color: #1d1c25;
+  color: white;
+}
+
+.main {
+  position: relative;
+  text-rendering: optimizeLegibility;
+  -moz-font-feature-settings: 'kern=1';
+  -moz-font-feature-settings: 'kern' 1;
+  -webkit-font-feature-settings: 'kern' 1;
+  -o-font-feature-settings: 'kern' 1;
+  -ms-font-feature-settings: 'kern' 1;
+  font-feature-settings: 'kern' 1;
+  line-height: 1.4;
+  margin-top: 1.6rem;
+  margin-bottom: .8rem;
+}
+
+
+img {
+  width: initial;
+  max-width: 100%;
+  display: block;
+}
+
+#level-one {
+  width: 30rem;
+  margin: 0 auto;
+}
+
+@media all and (max-width:350.0px){
+  #level-one {
+    width: 95%
+  }
+}
+
+
+.gallery {
+  display: -ms-flexbox;
+  -ms-flex-wrap: wrap;
+  -ms-flex-direction: column;
+  -webkit-flex-flow: row wrap;
+  flex-flow: row wrap;
+  display: -webkit-box;
+  display: flex;
+}
+
+.gallery div {
+  margin: 2px;
+}  
+
+
+h1 {
+  font-size: 1.8rem;
+  font-weight: 600;
+  line-height: 1.1;
+  margin-top: 0.25rem;  
+
+  margin-bottom: 1.5rem;
+}
+
+h3 {
+  font-size: 0.9rem;
+  opacity: 0.75;
+  font-weight: 500;
+  font-variant: small-caps;
+  line-height: 1.2;
+}
+
+
+h3.page-head {
+  border-bottom: 1px dashed gray;
+}
+
+h3.section-head {
+  margin-top: 1.5rem;
+  padding-bottom: 0.3rem;
+  font-size: 1rem;
+  opacity: 1;
+}
+
+
+.h3-right {
+  float: right;
+}
+
+.h3-right a {
+  padding: 0 .2rem;
+}
+
+.single-img {
+  margin: 0 auto;
+}
+
+
+
+.album-wrap {
+  display: table;
+  padding: 0.3rem 0;
+  margin: 0 auto;
+}
+
+
+.album-wrap:hover {
+  background-color: #393749;
+  border-radius: 5px;
+}
+
+
+.album {
+  margin: 0 .3rem;
+  overflow: hidden;
+  position: relative;
+  color: white;
+}
+
+.album:hover .album-cover {
+  transform: scale(1.1);
+}
+
+
+.album-desc {
+  background: rgba(0, 0, 0, 0) linear-gradient(to bottom, rgba(33, 36, 37, 0) 0%, rgba(33, 36, 37, 0.7) 50%, rgba(33, 36, 37, 0.84) 100%) repeat scroll 0 0;
+  bottom: 0;
+  padding: 4.25rem 0 2rem;
+  position: absolute;
+  width: 100%;
+  z-index: 1;
+}
+
+
+.album-desc h1 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+
+.album-desc h3 {
+  text-align: center;
+  margin-bottom: 0;
+}
+
+.album-cover{
+  margin: 0 auto;
+  min-width: 12.08rem;
+  max-width: 21.33rem;
+  min-height: 10.42rem;
+  max-height: 18.25rem;
+
+  border-radius: 5px;
+  transition: all 1s ease-out 0s;
+}
+
+
+
+a {
+  -moz-transition-property: background;
+  -webkit-transition-property: background;
+  transition-property: background;
+  -moz-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  color: white;
+  text-decoration: none;
+}
+
+
+a:hover {
+  -moz-transition-property: background;
+  -webkit-transition-property: background;
+  transition-property: background;
+  -moz-transition-duration: 0.1s;
+  -webkit-transition-duration: 0.1s;
+  transition-duration: 0.1s;
+  background-color: #5b5874;
+  border-radius: 2px;
+}
+
+
+
+
+
+
+
+
+
+
+
+p, li {
+  font-size: 1rem;
+  margin-bottom: 0.8rem;
+}
+
+ul li {
+  margin-left: 1rem;
+  padding-left: 1.25rem;
+  width: 95%;
+}
+
+ol li {
+  margin-left: 2.25rem;
+  width: 90%;
+  line-height: inherit;
+}
+
+ol li p {
+  line-height: inherit;
+}
+
+
+em {
+  font-style: italic;
+}
+
+strong {
+  font-weight: bolder;
+}
